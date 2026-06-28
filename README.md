@@ -1,0 +1,29 @@
+# LeetCode Solutions 🚀
+
+Welcome to my repository featuring a collection of algorithmic, data structures (DSA), and database solutions. Instead of following a strict linear path, I tackle problems **randomly** to simulate real-world technical assessments, interview environments, and adaptive problem-solving scenarios.
+
+All solutions are automatically updated and pushed to this repository instantly upon receiving an **"Accepted"** verdict on LeetCode using LeetHub V2.
+
+---
+
+## 🛠️ Tech Stack & Focus Areas
+* **Core Languages:** Java, SQL (MySQL)
+* **Problem Domains:** Data Structures, Algorithms, Database Design, and Optimization
+* **Key Topics Explored:** 
+  * **Algorithms:** String Manipulation, Two Pointers, Sliding Window, Sorting & Searching, Greedy Approaches.
+  * **Databases:** Advanced SQL Joins, Window Functions, Aggregate Queries, and Data Transformation.
+
+---
+
+## 🧠 Why Random Practice?
+Rather than practicing by specific topics in a predictable sequence, jumping into random problems helps build critical engineering skills:
+* **Pattern Recognition:** Learning to identify the correct data structure or algorithm without contextual hints.
+* **Interview Readiness:** Simulating technical screens where questions are inherently unpredictable.
+* **Versatility:** Transitioning smoothly between backend logic challenges (Java) and relational database queries (SQL).
+
+---
+
+## 📊 Repository Architecture
+
+Because I solve problems across different categories dynamically, LeetHub V2 organizes this repo seamlessly by generating isolated, self-contained directories:
+
