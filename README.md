@@ -33,6 +33,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Array
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -43,6 +44,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -82,6 +84,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
