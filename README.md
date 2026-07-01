@@ -57,6 +57,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [0183-customers-who-never-order](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0183-customers-who-never-order) |
+| [0185-department-top-three-salaries](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0185-department-top-three-salaries) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 ## String
 |  |
