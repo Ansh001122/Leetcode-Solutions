@@ -1,20 +1,20 @@
 class Solution {
     public int jump(int[] nums) {
-        int n = nums.length;
-        int ans = 0;
-        int end = 0;
+        int Destination = nums.length - 1; 
+        int TotalJumps = 0;
+        int LastJumpIndex = 0;
         int farthest = 0;
-        for(int i = 0;i<n-1;i++){
-            farthest = Math.max(farthest , nums[i] + i);
-            if(farthest >= n-1){
-                ans++;
-                return ans;
+        for(int i = 0;i < Destination;i++){
+            farthest = Math.max(farthest , i + nums[i]);
+            if(i == LastJumpIndex){
+                TotalJumps++;
+                LastJumpIndex = farthest;
+                
             }
-            if(i == end){
-                ans++;
-                end = farthest;
+            if(LastJumpIndex >= Destination){
+                return TotalJumps;
             }
         }
-        return ans;
+        return TotalJumps;
     }
 }
