@@ -16,7 +16,7 @@ class Solution {
             if(count >= i){
                 return i;
             }
-        } 
-        return 0;
+        }
+        return 0; 
     }
 }
