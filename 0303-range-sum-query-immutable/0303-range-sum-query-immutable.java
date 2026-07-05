@@ -1,5 +1,5 @@
 class NumArray {
-    int[] nums;
+    int[] PrefixSums;
 
     public NumArray(int[] nums) {
         int sumQuery = 0;
@@ -8,15 +8,15 @@ class NumArray {
             nums[i] +=sumQuery;
             sumQuery = nums[i];
         }
-        this.nums = nums;
+        PrefixSums = nums;
     }
     
     public int sumRange(int left, int right) {
         if(left == 0){
-            return nums[right];
+            return PrefixSums[right];
         }
         else{
-            return nums[right] - nums[left - 1];
+            return PrefixSums[right] - PrefixSums[left - 1];
         }
         
     }
