@@ -1,45 +1,57 @@
 class Solution {
-    private static final int MX = 100001;
-    private static final int MOD = 1_000_000_007;
-    private static final long[] POW10 = new long[MX];
-    
-    // Precompute powers of 10 to answer queries in O(1)
-    static {
-        POW10[0] = 1;
-        for (int i = 1; i < MX; i++) {
-            POW10[i] = (POW10[i - 1] * 10) % MOD;
-        }
-    }    
     public int[] sumAndMultiply(String s, int[][] queries) {
         int n = s.length();
-        int[] sumD = new int[n + 1];
-        int[] cntN0 = new int[n + 1];
-        long[] p = new long[n + 1];
+        int MOD = 1_000_000_007;
 
-        // Step 1: Preprocess the prefix arrays
-        for (int i = 1; i <= n; i++) {
-            int d = s.charAt(i - 1) - '0';
-            sumD[i] = sumD[i - 1] + d;
-            cntN0[i] = cntN0[i - 1] + (d > 0 ? 1 : 0);
-            p[i] = (d > 0) ? (p[i - 1] * 10 + d) % MOD : p[i - 1];
+        // Prefix arrays for O(1) query retrieval
+        long[] concat = new long[n];
+        long[] prefix = new long[n];
+        int[] nonZero = new int[n];
+        long[] pow10 = new long[n];
+
+        // Precompute powers of 10
+        pow10[0] = 1;
+        for (int i = 1; i < n; i++) {
+            pow10[i] = (pow10[i - 1] * 10) % MOD;
         }
 
-        int[] ans = new int[queries.length];
+        // Build the prefix arrays
+        long sum = 0;
+        long val = 0;
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            int d = s.charAt(i) - '0';
+            if (d != 0) {
+                val = (val * 10 + d) % MOD;
+                sum += d;
+                cnt++;
+            }
+            prefix[i] = sum;
+            concat[i] = val;
+            nonZero[i] = cnt;
+        }
 
-        // Step 2: Answer each query in O(1) time
-        for (int i = 0; i < queries.length; i++) {
+        // Process all queries
+        int m = queries.length;
+        int[] res = new int[m];
+        for (int i = 0; i < m; i++) {
             int l = queries[i][0];
             int r = queries[i][1];
 
-            int n0 = cntN0[r + 1] - cntN0[l]; // Count of non-zero digits in range
-            int sd = sumD[r + 1] - sumD[l];   // Sum of digits in range
+            long temp1, temp2;
+            if (l != 0) {
+                int count = nonZero[r] - nonZero[l - 1];
+                // Isolated window math with redundant mod operators removed
+                temp1 = (concat[r] - (concat[l - 1] * pow10[count]) % MOD + MOD) % MOD;
+                temp2 = (prefix[r] - prefix[l - 1]) % MOD;
+            } else {
+                temp1 = concat[r];
+                temp2 = prefix[r];
+            }
 
-            // Extract the concatenated value for the range by eliminating the left prefix
-            long x = (p[r + 1] - (p[l] * POW10[n0]) % MOD + MOD) % MOD;
-
-            ans[i] = (int) ((x * sd) % MOD);
+            res[i] = (int) ((temp1 * temp2) % MOD);
         }
 
-        return ans;  
+        return res;
     }
 }
