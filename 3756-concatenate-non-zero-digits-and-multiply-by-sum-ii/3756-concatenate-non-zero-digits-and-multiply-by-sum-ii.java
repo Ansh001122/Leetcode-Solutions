@@ -1,51 +1,56 @@
 class Solution {
+     static final long MOD = 1_000_000_007L;
     public int[] sumAndMultiply(String s, int[][] queries) {
-        int n = s.length();
-        int MOD = 1_000_000_007;
+       int n = s.length();
 
-        long[] concat = new long[n];
-        long[] prefix = new long[n];
-        int[] nonZero = new int[n];
-        long[] pow10 = new long[n];
+        long[] digitSumUpTo = new long[n];
+        long[] numberUpTo = new long[n];
+        int[] nonZerodigit = new int[n];
+        long[] pow10 = new long[n + 1];
 
         pow10[0] = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++)
             pow10[i] = (pow10[i - 1] * 10) % MOD;
+
+        nonZerodigit[0] = (s.charAt(0) != '0') ? 1 : 0;
+        for(int i = 1; i < n; i++){
+            int digit = s.charAt(i) - '0';
+            nonZerodigit[i] = nonZerodigit[i - 1] + ((digit != 0) ? 1 : 0); 
         }
 
-        long sum = 0;
-        long val = 0;
-        int cnt = 0;
-        for (int i = 0; i < n; i++) {
-            int d = s.charAt(i) - '0';
-            if (d != 0) {
-                val = (val * 10 + d) % MOD;
-                sum += d;
-                cnt++;
+        numberUpTo[0] = s.charAt(0) - '0';
+        for(int i = 1; i < n; i++){
+            int digit = s.charAt(i) - '0';
+            if(digit != 0){
+                numberUpTo[i] = (numberUpTo[i - 1] * 10 + digit) % MOD;
+            } else {
+                numberUpTo[i] = numberUpTo[i - 1];
             }
-            prefix[i] = sum;
-            concat[i] = val;
-            nonZero[i] = cnt;
         }
 
-        int m = queries.length;
-        int[] res = new int[m];
-        for (int i = 0; i < m; i++) {
+        digitSumUpTo[0] = s.charAt(0) - '0';
+        for(int i = 1; i < n; i++){
+            int digit = s.charAt(i) - '0';
+            digitSumUpTo[i] = digitSumUpTo[i - 1] + digit;
+        }
+
+        int q = queries.length;
+        int[] ans = new int[q]; 
+        
+        for(int i = 0; i < q; i++){
             int l = queries[i][0];
             int r = queries[i][1];
+            
+            long sum = digitSumUpTo[r] - ((l == 0) ? 0 : digitSumUpTo[l - 1]);
+            
+            long checkbound = (l == 0) ? 0 : numberUpTo[l - 1];
+            
+            int k = nonZerodigit[r] - ((l == 0) ? 0 : nonZerodigit[l - 1]);
+            long x = (numberUpTo[r] - (checkbound * pow10[k] % MOD) + MOD) % MOD;
 
-            long temp1, temp2;
-            if (l != 0) {
-                int count = nonZero[r] - nonZero[l - 1];
-                
-                temp1 = (concat[r] - (concat[l - 1] * pow10[count]) % MOD + MOD) % MOD;
-                temp2 = (prefix[r] - prefix[l - 1]) % MOD;
-            } else {
-                temp1 = concat[r];
-                temp2 = prefix[r];
-            }
-            res[i] = (int) ((temp1 * temp2) % MOD);
-        }
-        return res;
+            ans[i] = (int) ((x * sum) % MOD);
+        } 
+        
+        return ans;   
     }
 }
