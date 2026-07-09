@@ -50,7 +50,6 @@ class Solution {
 
             ans[i] = (int) ((x * sum) % MOD);
         } 
-        
         return ans;   
     }
 }
