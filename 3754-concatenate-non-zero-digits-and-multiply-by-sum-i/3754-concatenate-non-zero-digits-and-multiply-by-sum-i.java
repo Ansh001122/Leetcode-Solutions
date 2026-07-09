@@ -9,6 +9,6 @@ class Solution {
                 ans = ans*10 + digit;
             }
         }
-        return ans*sum;
+        return ans * sum;
     }
 }
