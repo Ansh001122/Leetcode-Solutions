@@ -49,6 +49,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0283-move-zeroes](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -66,6 +67,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0217-contains-duplicate](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0274-h-index) |
+| [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Database
 |  |
@@ -87,6 +89,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0219-contains-duplicate-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Divide and Conquer
 |  |
