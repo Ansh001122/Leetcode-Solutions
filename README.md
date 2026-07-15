@@ -35,6 +35,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | ------- |
 | [0011-container-with-most-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -107,6 +108,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0268-missing-number) |
@@ -178,4 +180,8 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
