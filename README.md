@@ -33,6 +33,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -56,6 +57,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -115,6 +117,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0189-rotate-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0283-move-zeroes) |
