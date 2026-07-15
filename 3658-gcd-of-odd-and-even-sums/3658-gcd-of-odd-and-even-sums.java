@@ -5,7 +5,7 @@ class Solution {
         sumEven = n*(n+1);
         return (int)_gcd(sumOdd,sumEven);
     }
-    private long _gcd(long a, long b) {
+    public long _gcd(long a, long b) {
         while (b != 0) {
             long temp = b;
             b = a % b;
