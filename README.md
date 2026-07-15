@@ -109,6 +109,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Two Pointers
@@ -170,4 +171,8 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1291-sequential-digits) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
