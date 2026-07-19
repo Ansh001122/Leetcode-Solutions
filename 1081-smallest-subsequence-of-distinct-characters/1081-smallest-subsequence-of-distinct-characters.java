@@ -1,37 +1,29 @@
 class Solution {
     public String smallestSubsequence(String s) {
-       boolean visited[] = new boolean[26];
-        int li[] = new int[26];
+       int n = s.length();
+        StringBuilder result = new StringBuilder();
+        boolean[] taken = new boolean[26];
+        int[] lastIndex = new int[26];
         
-        // Fast, non-synchronized stack replacement
-        ArrayDeque<Character> st = new ArrayDeque<>(); 
-        
-        for (int i = 0; i < s.length(); i++) {
-            li[s.charAt(i) - 'a'] = i;
+        for (int i = 0; i < n; i++) {
+            char ch = s.charAt(i);
+            lastIndex[ch - 'a'] = i;
         }
-        
-        // Converted your while loop into a cleaner for-loop
-        for (int r = 0; r < s.length(); r++) {
-            char ch = s.charAt(r);
+        for (int i = 0; i < n; i++) {
+            char ch = s.charAt(i);
+            if (taken[ch - 'a']){
+                continue;
+            } 
             
-            if (visited[ch - 'a']) {
-                continue; // Automatically increments 'r' due to the for-loop
+            while (!result.isEmpty() && result.charAt(result.length() -1) > ch && 
+            lastIndex[result.charAt(result.length() -1) - 'a'] > i) {
+
+                taken[result.charAt(result.length() -1) -'a'] = false;
+                result.deleteCharAt(result.length() -1);
             }
-            
-            while (!st.isEmpty() && st.peek() > ch && li[st.peek() - 'a'] > r) {
-                visited[st.pop() - 'a'] = false;
-            }
-            
-            visited[ch - 'a'] = true;
-            st.push(ch);
+            result.append(ch);
+            taken[ch -'a'] = true;
         }
-        
-        // Fast, non-synchronized string builder
-        StringBuilder sb = new StringBuilder(); 
-        while (!st.isEmpty()) {
-            sb.append(st.pop());
-        }
-        
-        return sb.reverse().toString();
+        return result.toString();
     }
 }
