@@ -52,6 +52,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0303-range-sum-query-immutable](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0977-squares-of-a-sorted-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -75,6 +76,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0242-valid-anagram](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0274-h-index) |
+| [0977-squares-of-a-sorted-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -132,6 +134,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0189-rotate-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0283-move-zeroes) |
+| [0977-squares-of-a-sorted-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
 |  |
