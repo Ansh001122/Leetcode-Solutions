@@ -1,43 +1,37 @@
 class Solution {
     public String smallestSubsequence(String s) {
-        char[] chars = s.toCharArray();
+       boolean visited[] = new boolean[26];
+        int li[] = new int[26];
         
-        // Find the last index where each character appears
-        int[] lastIndex = new int[26];
-        for (int i = 0; i < chars.length; i++) {
-            lastIndex[chars[i] - 'a'] = i;
+        // Fast, non-synchronized stack replacement
+        ArrayDeque<Character> st = new ArrayDeque<>(); 
+        
+        for (int i = 0; i < s.length(); i++) {
+            li[s.charAt(i) - 'a'] = i;
         }
         
-        // Use a standard Java double-ended queue (Deque) as our stack
-        // It provides clean array-backed push/pop semantics
-        java.util.ArrayDeque<Character> stack = new java.util.ArrayDeque<>();
-        boolean[] seen = new boolean[26];
-        
-        for (int i = 0; i < chars.length; i++) {
-            char curr = chars[i];
+        // Converted your while loop into a cleaner for-loop
+        for (int r = 0; r < s.length(); r++) {
+            char ch = s.charAt(r);
             
-            // Skip if the character is already part of the unique subsequence
-            if (seen[curr - 'a']) {
-                continue;
+            if (visited[ch - 'a']) {
+                continue; // Automatically increments 'r' due to the for-loop
             }
             
-            // Maintain the monotonic increasing order if the larger element appears later
-            while (!stack.isEmpty() && stack.peek() > curr && lastIndex[stack.peek() - 'a'] > i) {
-                char removed = stack.pop();
-                seen[removed - 'a'] = false;
+            while (!st.isEmpty() && st.peek() > ch && li[st.peek() - 'a'] > r) {
+                visited[st.pop() - 'a'] = false;
             }
             
-            stack.push(curr);
-            seen[curr - 'a'] = true;
+            visited[ch - 'a'] = true;
+            st.push(ch);
         }
         
-        // Build the final result string cleanly
-        StringBuilder result = new StringBuilder();
-        while (!stack.isEmpty()) {
-            result.append(stack.pop());
+        // Fast, non-synchronized string builder
+        StringBuilder sb = new StringBuilder(); 
+        while (!st.isEmpty()) {
+            sb.append(st.pop());
         }
         
-        // Since we popped from a LIFO stack, the string is reversed
-        return result.reverse().toString();
+        return sb.reverse().toString();
     }
 }
