@@ -3,9 +3,10 @@ class Solution {
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
             int index = Math.abs(nums[i]) - 1;
-            if (nums[index] > 0) {
-                nums[index] = -nums[index];
-            }
+            if (nums[index] < 0) {
+                continue;
+            }    
+            nums[index] *= -1;
         }
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] > 0) {
