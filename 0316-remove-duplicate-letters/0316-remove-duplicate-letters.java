@@ -15,9 +15,11 @@ class Solution {
                 continue;
             } 
             
-            while (result.length() > 0 && ch < result.charAt(result.length() - 1) && lastIndex[result.charAt(result.length() - 1) - 'a'] > i) {
-                taken[result.charAt(result.length() - 1) - 'a'] = false;
-                result.deleteCharAt(result.length() - 1);
+            while (!result.isEmpty() && result.charAt(result.length() -1) > ch && 
+            lastIndex[result.charAt(result.length() -1) - 'a'] > i) {
+
+                taken[result.charAt(result.length() -1) -'a'] = false;
+                result.deleteCharAt(result.length() -1);
             }
             result.append(ch);
             taken[ch -'a'] = true;
