@@ -2,34 +2,22 @@ class Solution {
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
         int m = grid.length;
         int n = grid[0].length;
-        int totalElements = m * n;
+        int size = m * n;
         
-        // Optimize k: shifting by totalElements results in the same grid
-        k = k % totalElements;
+        // Fix 1: Always modulo k to keep it strictly less than size
+        k %= size; 
         
-        // Initialize the result grid with placeholders
-        List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> res = new ArrayList<>(m);
+        
         for (int i = 0; i < m; i++) {
-            List<Integer> row = new ArrayList<>();
+            List<Integer> row = new ArrayList<>(n);
             for (int j = 0; j < n; j++) {
-                row.add(0);
+                // Fix 2: Clean, safe reverse flat index calculation
+                int flatIdx = (i * n + j - k + size) % size;
+                row.add(grid[flatIdx / n][flatIdx % n]);
             }
-            result.add(row);
+            res.add(row);
         }
-        
-        // Place each element at its new shifted position
-        for (int r = 0; r < m; r++) {
-            for (int c = 0; c < n; c++) {
-                int oldIndex = r * n + c;
-                int newIndex = (oldIndex + k) % totalElements;
-                
-                int newRow = newIndex / n;
-                int newCol = newIndex % n;
-                
-                result.get(newRow).set(newCol, grid[r][c]);
-            }
-        }
-        
-        return result;
+        return res;
     }
 }
