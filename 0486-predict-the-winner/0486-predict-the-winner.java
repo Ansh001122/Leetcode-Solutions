@@ -1,21 +1,17 @@
 class Solution {
     public boolean predictTheWinner(int[] nums) {
-        int n = nums.length;
+       int n = nums.length;
+        if (n % 2 == 0) return true;
+
         int[] dp = new int[n];
 
-        // Base cases: length 1 subarrays
-        for (int i = 0; i < n; i++) {
+        for (int i = n - 1; i >= 0; i--) {
             dp[i] = nums[i];
-        }
-
-        // Subarray lengths from 2 to n
-        for (int len = 2; len <= n; len++) {
-            for (int i = 0; i <= n - len; i++) {
-                int j = i + len - 1;
-                dp[i] = Math.max(nums[i] - dp[i + 1], nums[j] - dp[i]);
+            for (int j = i + 1; j < n; j++) {
+                dp[j] = Math.max(nums[i] - dp[j], nums[j] - dp[j - 1]);
             }
         }
 
-        return dp[0] >= 0;
+        return dp[n - 1] >= 0;
     }
 }
