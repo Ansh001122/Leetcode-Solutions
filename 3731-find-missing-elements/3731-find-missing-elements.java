@@ -13,7 +13,7 @@ class Solution {
       return ans;*/
 
 
-      HashSet<Integer> set = new HashSet<>();
+      /*HashSet<Integer> set = new HashSet<>();
 
       int max = Integer.MIN_VALUE;
       int min = Integer.MAX_VALUE;
@@ -30,6 +30,20 @@ class Solution {
             ans.add(i);
         }
       }
+      return ans;*/
+
+      TreeSet<Integer> set = new TreeSet<>();
+
+      for(int x : nums)
+      set.add(x);
+      int min = set.first();
+      int max = set.last();
+      List<Integer> ans = new ArrayList<>();
+      for(int i = min ; i <= max;i++){
+        if(!set.contains(i)){
+                ans.add(i);
+            }
+        }
       return ans;
     }
 }
