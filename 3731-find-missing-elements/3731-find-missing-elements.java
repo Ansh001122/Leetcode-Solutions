@@ -1,24 +1,19 @@
 class Solution {
     public List<Integer> findMissingElements(int[] nums) {
-        int minVal = Integer.MAX_VALUE;
-        int maxVal = Integer.MIN_VALUE;
-
-        // Step 1: Track existing elements and find min / max boundaries
-        Set<Integer> present = new HashSet<>();
+       int min = nums[0], max = nums[0];
         for (int num : nums) {
-            present.add(num);
-            if (num < minVal) minVal = num;
-            if (num > maxVal) maxVal = num;
+            min = Math.min(min, num);
+            max = Math.max(max, num);
         }
 
-        // Step 2: Collect missing numbers in sorted order
-        List<Integer> result = new ArrayList<>();
-        for (int i = minVal; i <= maxVal; i++) {
-            if (!present.contains(i)) {
-                result.add(i);
-            }
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) set.add(num);
+
+        List<Integer> ans = new ArrayList<>();
+        for (int i = min + 1; i < max; i++) {
+            if (!set.contains(i)) ans.add(i);
         }
 
-        return result;
+        return ans;
     }
 }
