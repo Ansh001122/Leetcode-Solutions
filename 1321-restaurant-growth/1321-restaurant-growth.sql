@@ -1,16 +1,20 @@
 # Write your MySQL query statement below
 WITH DailyTotals AS (
-    SELECT visited_on, SUM(amount) AS amount
-    FROM Customer
+    SELECT 
+        visited_on, 
+        SUM(amount) AS daily_amount 
+    FROM Customer              
     GROUP BY visited_on
 )
 SELECT 
-    a.visited_on,
-    SUM(b.amount) AS amount,
-    ROUND(AVG(b.amount), 2) AS average_amount
-FROM DailyTotals a
-JOIN DailyTotals b 
-  ON b.visited_on BETWEEN a.visited_on - INTERVAL '6' DAY AND a.visited_on
-GROUP BY a.visited_on
-HAVING COUNT(b.visited_on) = 7
-ORDER BY a.visited_on ASC;
+    visited_on,
+    amount,
+    ROUND(amount / 7.0, 2) AS average_amount 
+FROM (
+    SELECT 
+        visited_on,
+        DENSE_RANK() OVER (ORDER BY visited_on) AS rnk,
+        SUM(daily_amount) OVER (ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS amount
+    FROM DailyTotals
+) t
+WHERE rnk >= 7;
