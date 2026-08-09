@@ -1,34 +1,39 @@
 class Solution {
     public int stoneGameII(int[] piles) {
         int n = piles.length;
-
-        // dp[i][M] stores max stones the player can get starting from index i with parameter M
-        int[][] dp = new int[n + 1][n + 1];
-
-        // Precalculate suffix sums (total remaining stones from index i to end)
-        int[] suffixSum = new int[n + 1];
-        for (int i = n - 1; i >= 0; i--) {
+        
+        // Compute suffix sums to quickly find total remaining stones
+        int[] suffixSum = new int[n];
+        suffixSum[n - 1] = piles[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
             suffixSum[i] = suffixSum[i + 1] + piles[i];
         }
+        
+        // Memoization table: memo[i][M]
+        int[][] memo = new int[n][n + 1];
+        
+        return dfs(piles, suffixSum, 0, 1, memo);
+    }
 
-        // Fill DP table backwards (from end of piles to start)
-        for (int i = n - 1; i >= 0; i--) {
-            for (int M = 1; M <= n; M++) {
-                // If player can take all remaining piles in one move
-                if (i + 2 * M >= n) {
-                    dp[i][M] = suffixSum[i];
-                } else {
-                    // Try taking X piles (1 <= X <= 2 * M)
-                    for (int X = 1; X <= 2 * M; X++) {
-                        int nextM = Math.max(M, X);
-                        int score = suffixSum[i] - dp[i + X][nextM];
-                        dp[i][M] = Math.max(dp[i][M], score);
-                    }
-                }
-            }
+    private int dfs(int[] piles, int[] suffixSum, int i, int M, int[][] memo) {
+        if (i >= piles.length) return 0;
+        
+        // Base case: If we can take all remaining piles in one move
+        if (i + 2 * M >= piles.length) return suffixSum[i];
+        
+        // Return cached result if already computed
+        if (memo[i][M] != 0) return memo[i][M];
+        
+        int maxStones = 0;
+        
+        // Try taking X piles (1 <= X <= 2 * M)
+        for (int X = 1; X <= 2 * M; X++) {
+            int nextM = Math.max(M, X);
+            int opponentStones = dfs(piles, suffixSum, i + X, nextM, memo);
+            maxStones = Math.max(maxStones, suffixSum[i] - opponentStones);
         }
-
-        // Answer for game starting at index 0 with M = 1
-        return dp[0][1];
+        
+        memo[i][M] = maxStones;
+        return maxStones;
     }
 }
