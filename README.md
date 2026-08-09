@@ -97,6 +97,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1321-restaurant-growth](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1321-restaurant-growth) |
 | [1393-capital-gainloss](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1393-capital-gainloss) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
+| [1757-recyclable-and-low-fat-products](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1757-recyclable-and-low-fat-products) |
 ## String
 |  |
 | ------- |
