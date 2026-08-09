@@ -55,6 +55,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0877-stone-game) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
+| [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1260-shift-2d-grid](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
@@ -137,6 +138,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0380-insert-delete-getrandom-o1](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -165,6 +167,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0213-house-robber-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0213-house-robber-ii) |
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Counting Sort
@@ -185,6 +188,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Sliding Window
 |  |
@@ -244,6 +248,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | ------- |
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 ## Recursion
 |  |
@@ -253,11 +258,13 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
+| [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
+| [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 ## Depth-First Search
 |  |
