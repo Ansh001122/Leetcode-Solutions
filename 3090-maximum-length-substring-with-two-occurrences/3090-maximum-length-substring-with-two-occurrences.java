@@ -1,6 +1,6 @@
 class Solution {
     public int maximumLengthSubstring(String s) {
-        int hash[] = new int[26];
+       /* int hash[] = new int[26];
         int len = 0;
         int max = 0;
         int j = 0;
@@ -25,6 +25,30 @@ class Solution {
             }
         }
         max = Math.max(max,len);
+        return max;*/
+
+        int hash[] = new int[26];
+        int len = 0;
+        int max = 0;
+        int j = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
+            // If we already have 2 of this character, shrink until one is removed
+            while (hash[ch - 'a'] == 2) {
+                char ch1 = s.charAt(j);
+                hash[ch1 - 'a']--;
+                j++;
+                len--;
+            }
+
+            // Always add the current character
+            hash[ch - 'a']++;
+            len++;
+            max = Math.max(max, len);
+        }
+
         return max;
     }
 }
