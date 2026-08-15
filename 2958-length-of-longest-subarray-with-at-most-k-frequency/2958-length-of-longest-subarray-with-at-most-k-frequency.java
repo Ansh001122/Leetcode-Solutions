@@ -6,7 +6,7 @@ class Solution {
         while (j < n) {
             map.put(nums[j], map.getOrDefault(nums[j], 0) + 1);//put in map the frequencies till j<n
             
-            while (map.get(nums[j]) > k) {//1st condition for shrinking the window size 
+            while (map.get(nums[j]) > k && i < j) {//1st condition for shrinking the window size 
                 map.put(nums[i], map.get(nums[i]) - 1);
                 i++;//then again adding the element to the window
             }
