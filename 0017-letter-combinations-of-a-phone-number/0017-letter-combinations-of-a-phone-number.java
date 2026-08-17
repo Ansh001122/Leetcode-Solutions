@@ -1,38 +1,36 @@
 class Solution {
-    private static final String[] KEYPAD = {
-        "",     // 0
-        "",     // 1
-        "abc",  // 2
-        "def",  // 3
-        "ghi",  // 4
-        "jkl",  // 5
-        "mno",  // 6
-        "pqrs", // 7
-        "tuv",  // 8
-        "wxyz"  // 9
-    };
-
     public List<String> letterCombinations(String digits) {
-        List<String> result = new ArrayList<>();
-        if (digits == null || digits.isEmpty()) {
-            return result;
+        List<String> res = new ArrayList<>();
+        if (digits == null || digits.length() == 0) {
+            return res;
         }
 
-        backtrack(digits, 0, new StringBuilder(), result);
-        return result;
+        Map<Character, String> digitToLetters = new HashMap<>();
+        digitToLetters.put('2', "abc");
+        digitToLetters.put('3', "def");
+        digitToLetters.put('4', "ghi");
+        digitToLetters.put('5', "jkl");
+        digitToLetters.put('6', "mno");
+        digitToLetters.put('7', "pqrs");
+        digitToLetters.put('8', "tuv");
+        digitToLetters.put('9', "wxyz");
+
+        backtrack(digits, 0, new StringBuilder(), res, digitToLetters);
+
+        return res;
     }
 
-    private void backtrack(String digits, int index, StringBuilder current, List<String> result) {
-        if (index == digits.length()) {
-            result.add(current.toString());
+    private void backtrack(String digits, int idx, StringBuilder comb, List<String> res, Map<Character, String> digitToLetters) {
+        if (idx == digits.length()) {
+            res.add(comb.toString());
             return;
         }
 
-        String letters = KEYPAD[digits.charAt(index) - '0'];
-        for (int i = 0; i < letters.length(); i++) {
-            current.append(letters.charAt(i));              // Choose
-            backtrack(digits, index + 1, current, result);  // Explore
-            current.deleteCharAt(current.length() - 1);     // Backtrack
+        String letters = digitToLetters.get(digits.charAt(idx));
+        for (char letter : letters.toCharArray()) {
+            comb.append(letter);
+            backtrack(digits, idx + 1, comb, res, digitToLetters);
+            comb.deleteCharAt(comb.length() - 1);
         }
     }
 }
