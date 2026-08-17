@@ -61,6 +61,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -77,6 +78,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0316-remove-duplicate-letters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0316-remove-duplicate-letters) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Sorting
@@ -141,6 +143,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0169-majority-element) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 ## Math
 |  |
 | ------- |
@@ -154,6 +157,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -269,6 +273,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 ## Recursion
 |  |
 | ------- |
@@ -280,6 +285,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
@@ -287,6 +293,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -299,6 +306,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 ## Sprague–Grundy Theorem
 |  |
 | ------- |
