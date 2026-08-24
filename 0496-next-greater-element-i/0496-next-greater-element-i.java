@@ -3,20 +3,16 @@ class Solution {
         Map<Integer, Integer> nextGreaterMap = new HashMap<>();
         Deque<Integer> stack = new ArrayDeque<>();
         
-        // Find the next greater element for every number in nums2
         for (int num : nums2) {
             while (!stack.isEmpty() && stack.peek() < num) {
                 nextGreaterMap.put(stack.pop(), num);
             }
             stack.push(num);
         }
-        
-        // Construct the result array for nums1
         int[] result = new int[nums1.length];
         for (int i = 0; i < nums1.length; i++) {
             result[i] = nextGreaterMap.getOrDefault(nums1[i], -1);
         }
-        
         return result;
     }
 }
