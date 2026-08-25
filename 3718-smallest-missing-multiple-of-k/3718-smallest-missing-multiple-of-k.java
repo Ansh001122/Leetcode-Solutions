@@ -8,7 +8,7 @@ class Solution {
         while(hash.contains(res)){
             res += k;
         }
-        return res;*/
+        return res;  Hashing Problem*/
 
         boolean[] arr = new boolean[102];
         for (int num : nums) {
