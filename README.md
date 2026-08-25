@@ -69,6 +69,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Greedy
@@ -142,6 +143,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3731-find-missing-elements) |
 ## Divide and Conquer
 |  |
