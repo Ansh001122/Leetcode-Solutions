@@ -1,25 +1,25 @@
 class Solution {
     public String shortestBeautifulSubstring(String s, int k) {
-        int n = s.length();
-        for (int len = k; len <= n; len++) {
-            String result = "";
-            for (int start = 0; start + len <= n; start++) { //trying all possible substr of len
-                String temp = s.substring(start, start + len); //[start ... start+len)
-                int ones = 0;
-                for (char ch : temp.toCharArray()) {
-                    ones += (ch == '1') ? 1 : 0;
-                }
-                // Keep it if it's beautiful and smaller than current best.
-                if (ones == k) {
-                    if (result.isEmpty() || temp.compareTo(result) < 0)
-                        result = temp;
-                }
-            }
+       int left = 0, count = 0;
+        String result = "";
 
-            //if we find result of len size, then it's smallest, no need to move to len++
-            if (!result.isEmpty())
-                return result;
+        for (int right = 0; right < s.length(); right++) {
+            if (s.charAt(right) == '1') count++;
+
+            // Shrink window to keep exactly k '1's starting with '1'
+            while (count == k) {
+                if (s.charAt(left) == '1') {
+                    String sub = s.substring(left, right + 1);
+                    if (result.isEmpty() || sub.length() < result.length() || 
+                       (sub.length() == result.length() && sub.compareTo(result) < 0)) {
+                        result = sub;
+                    }
+                    count--;
+                }
+                left++;
+            }
         }
-        return "";
+
+        return result;
     }
 }
