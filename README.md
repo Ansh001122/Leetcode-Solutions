@@ -110,6 +110,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1341-movie-rating](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1341-movie-rating) |
 | [1393-capital-gainloss](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1393-capital-gainloss) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
+| [1741-find-total-time-spent-by-each-employee](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1741-find-total-time-spent-by-each-employee) |
 | [1757-recyclable-and-low-fat-products](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1757-recyclable-and-low-fat-products) |
 | [1789-primary-department-for-each-employee](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1789-primary-department-for-each-employee) |
 ## String
