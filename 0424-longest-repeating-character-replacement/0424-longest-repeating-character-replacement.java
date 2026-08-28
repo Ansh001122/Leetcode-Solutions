@@ -5,18 +5,15 @@ class Solution {
         int maxFreq = 0;
         int maxLength = 0;
         for (int right = 0; right < s.length(); right++) {
-            // Expand window by adding character at 'right'
-            char rightChar = s.charAt(right);
+            char rightChar = s.charAt(right); // Expand window by adding character at 'right'
             freq[rightChar - 'A']++;
             maxFreq = Math.max(maxFreq, freq[rightChar - 'A']);
-            // If characters to replace exceed k, shrink the window from the left
-            while ((right - left + 1) - maxFreq > k) {
+            while ((right - left + 1) - maxFreq > k) {   // If characters to replace exceed k, shrink the window from the left
                 char leftChar = s.charAt(left);
                 freq[leftChar - 'A']--;
                 left++;
             }
-            // Update maximum valid window size
-            maxLength = Math.max(maxLength, right - left + 1);
+            maxLength = Math.max(maxLength, right - left + 1);    // Update maximum valid window size
         }
         return maxLength;
     }
