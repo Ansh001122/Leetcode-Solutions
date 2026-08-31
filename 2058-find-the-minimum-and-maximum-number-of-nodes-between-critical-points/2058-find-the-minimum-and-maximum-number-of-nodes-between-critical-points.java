@@ -14,42 +14,38 @@ class Solution {
             return new int[]{-1, -1};
         }
 
-        int firstCritical = -1;
-        int prevCritical = -1;
-        int minDistance = Integer.MAX_VALUE;
+        int idx = 1;
+        int f_idx = -1;
+        int l_idx = -1;
+        int min_dist = Integer.MAX_VALUE;
 
-        ListNode prev = head;
-        ListNode curr = head.next;
-        int index = 2; // curr is at 1-based index 2
+        ListNode a = head;
+        ListNode b = a.next;
+        ListNode c = b.next;
 
-        while (curr.next != null) {
-            ListNode next = curr.next;
-
-            // Check if curr is a local minima or local maxima
-            boolean isLocalMax = (curr.val > prev.val && curr.val > next.val);
-            boolean isLocalMin = (curr.val < prev.val && curr.val < next.val);
-
-            if (isLocalMax || isLocalMin) {
-                if (firstCritical == -1) {
-                    firstCritical = index;
-                } else {
-                    // Update minDistance with the distance to the immediately preceding critical point
-                    minDistance = Math.min(minDistance, index - prevCritical);
+        while (c != null) {
+            // Check for local minima or local maxima
+            if ((b.val < a.val && b.val < c.val) || (b.val > a.val && b.val > c.val)) {
+                if (f_idx == -1) {
+                    f_idx = idx;
                 }
-                prevCritical = index;
+                if (l_idx != -1) {
+                    min_dist = Math.min(min_dist, idx - l_idx);
+                }
+                l_idx = idx;
             }
-
-            prev = curr;
-            curr = next;
-            index++;
+            
+            idx++;
+            a = a.next;
+            b = b.next;
+            c = c.next;
         }
 
         // If fewer than 2 critical points were found
-        if (firstCritical == -1 || firstCritical == prevCritical) {
+        if (f_idx == -1 || f_idx == l_idx) {
             return new int[]{-1, -1};
         }
 
-        int maxDistance = prevCritical - firstCritical;
-        return new int[]{minDistance, maxDistance};
+        return new int[]{min_dist, l_idx - f_idx};
     }
 }
