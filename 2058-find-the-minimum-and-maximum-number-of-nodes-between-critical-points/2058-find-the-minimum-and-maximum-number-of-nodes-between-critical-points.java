@@ -13,7 +13,6 @@ class Solution {
         if (head == null || head.next == null || head.next.next == null) {
             return new int[]{-1, -1};
         }
-
         int idx = 1;
         int f_idx = -1;
         int l_idx = -1;
@@ -34,18 +33,15 @@ class Solution {
                 }
                 l_idx = idx;
             }
-            
             idx++;
             a = a.next;
             b = b.next;
             c = c.next;
         }
-
         // If fewer than 2 critical points were found
         if (f_idx == -1 || f_idx == l_idx) {
             return new int[]{-1, -1};
         }
-
         return new int[]{min_dist, l_idx - f_idx};
     }
 }
