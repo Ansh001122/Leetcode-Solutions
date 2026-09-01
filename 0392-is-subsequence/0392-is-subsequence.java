@@ -6,11 +6,12 @@ class Solution {
         while (i < n && j < m) {
             if (s.charAt(i) == t.charAt(j)) {
                 i++;
-
+                j++;
             }
-            j++;
+            else{
+                j++;
+            }    
         }
-
         return i == n;
     }
 }
