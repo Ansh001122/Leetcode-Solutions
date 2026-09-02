@@ -4,8 +4,8 @@ class Solution {
         int n = s.length(), m = t.length();
         while (i < n && j < m) {
             if (s.charAt(i) == t.charAt(j)) {
-                j++;
                 i++;
+                j++;
             }
             else{
                 j++;
