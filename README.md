@@ -33,6 +33,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
@@ -141,6 +142,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0169-majority-element](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
