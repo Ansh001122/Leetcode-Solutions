@@ -5,14 +5,13 @@ class Solution {
         while (left < right) {
             int sum = numbers[left] + numbers[right];
             if (sum == target) {
-                
-                return new int[]{left + 1, right + 1};
-            } else if (sum > target) {
-                right--; 
-            } else {
+                return new int[]{left + 1, right + 1};//As we need to return in 1- Based index format 
+            } else if (sum < target) {
                 left++; 
+            } else {
+                right--; 
             }
         }
-        return new int[]{-1, -1};
+        return new int[]{-1, -1}; //If nothing found blank but the answer should be -1, -1 (No null returning)
     }
 }
