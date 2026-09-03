@@ -41,6 +41,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0198-house-robber) |
@@ -203,6 +204,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0011-container-with-most-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0283-move-zeroes) |
@@ -262,6 +264,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Bit Manipulation
