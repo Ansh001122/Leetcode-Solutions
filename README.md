@@ -78,6 +78,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3903-smallest-stable-index-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3903-smallest-stable-index-i) |
 ## Greedy
 |  |
 | ------- |
@@ -252,6 +253,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1872-stone-game-viii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1872-stone-game-viii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3903-smallest-stable-index-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3903-smallest-stable-index-i) |
 ## Sliding Window
 |  |
 | ------- |
