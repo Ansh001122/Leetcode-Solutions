@@ -14,32 +14,37 @@
  * }
  */
 class Solution {
-  private int matchingNodeCount = 0;
-
-    public int averageOfSubtree(TreeNode root) {
-        matchingNodeCount = 0;
-        postOrder(root);
-        return matchingNodeCount;
+ class Pair {
+        int sum, c;
+        Pair(int sum, int c) {
+            this.sum = sum;
+            this.c = c;
+        }
     }
 
-    // Returns an array: index 0 = subtree sum, index 1 = subtree node count
-    private int[] postOrder(TreeNode node) {
-        if (node == null) {
-            return new int[]{0, 0};
+    private int count = 0;
+
+    public int averageOfSubtree(TreeNode root) {
+        count = 0; // Reset for repeated test calls
+        d(root);
+        return count;
+    }
+
+    private Pair d(TreeNode root) {
+        if (root == null) {
+            return new Pair(0, 0);
         }
 
-        // Recursively get stats from left and right subtrees
-        int[] left = postOrder(node.left);
-        int[] right = postOrder(node.right);
+        Pair p1 = d(root.left);
+        Pair p2 = d(root.right);
 
-        int currentSum = node.val + left[0] + right[0];
-        int currentCount = 1 + left[1] + right[1];
+        int sum = p1.sum + p2.sum + root.val;
+        int c = p1.c + p2.c + 1;
 
-        // Check if the floor average equals the node value
-        if (currentSum / currentCount == node.val) {
-            matchingNodeCount++;
+        if (sum / c == root.val) {
+            count++;
         }
 
-        return new int[]{currentSum, currentCount};
+        return new Pair(sum, c);
     }
 }
