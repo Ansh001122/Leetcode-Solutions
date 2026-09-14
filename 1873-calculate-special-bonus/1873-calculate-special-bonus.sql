@@ -1,14 +1,8 @@
 # Write your MySQL query statement below
-select
+SELECT 
     employee_id,
-    coalesce(
-        case
-            when 
-                employee_id % 2 != 0
-                and left(name, 1) != 'M'
-            then salary
-        end,
-        0
-    ) as bonus
-from Employees
-order by employee_id
+    IF(employee_id % 2 = 1 AND name NOT LIKE 'M%', salary, 0) AS bonus
+FROM 
+    Employees
+ORDER BY 
+    employee_id;
