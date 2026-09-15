@@ -57,6 +57,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0496-next-greater-element-i) |
+| [0525-contiguous-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [0877-stone-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
@@ -164,6 +165,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0424-longest-repeating-character-replacement](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0496-next-greater-element-i) |
+| [0525-contiguous-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [0904-fruit-into-baskets](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0904-fruit-into-baskets) |
 | [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -264,6 +266,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0525-contiguous-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1872-stone-game-viii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1872-stone-game-viii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
