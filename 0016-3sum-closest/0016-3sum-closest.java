@@ -16,13 +16,11 @@ class Solution {
                 if (sum == target) {
                     return target; // Exact match found
                 }
-
                 int diffToTarget = Math.abs(sum - target);
                 if (diffToTarget < minDifference) {
                     minDifference = diffToTarget;
                     resultSum = sum;
                 }
-
                 // Adjust pointers AFTER evaluation
                 if (sum < target) {
                     left++;
@@ -31,7 +29,6 @@ class Solution {
                 }
             }
         }
-
         return resultSum;
     }
 }
