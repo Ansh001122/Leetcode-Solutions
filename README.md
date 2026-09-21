@@ -75,6 +75,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3483-unique-3-digit-even-numbers) |
+| [3524-find-x-value-of-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3524-find-x-value-of-array-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -213,6 +214,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3524-find-x-value-of-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3524-find-x-value-of-array-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -258,6 +260,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1872-stone-game-viii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3524-find-x-value-of-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3524-find-x-value-of-array-i) |
 ## Counting Sort
 |  |
 | ------- |
