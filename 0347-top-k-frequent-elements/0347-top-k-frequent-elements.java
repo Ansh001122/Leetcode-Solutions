@@ -4,9 +4,6 @@ class Solution {
         for (int num : nums) {
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
         }
-
-        // Step 2: Set up buckets where the index represents the frequency.
-        // Max possible frequency of any element is nums.length, so size is n + 1.
         List<Integer>[] buckets = new List[nums.length + 1];
         for (int key : frequencyMap.keySet()) {
             int freq = frequencyMap.get(key);
@@ -15,11 +12,8 @@ class Solution {
             }
             buckets[freq].add(key);
         }
-
-        // Step 3: Collect the top k frequent elements by iterating buckets backwards (from highest frequency down)
         int[] result = new int[k];
         int index = 0;
-        
         for (int i = buckets.length - 1; i >= 0 && index < k; i--) {
             if (buckets[i] != null) {
                 for (int num : buckets[i]) {
@@ -30,7 +24,6 @@ class Solution {
                 }
             }
         }
-
         return result;
     }
 }
