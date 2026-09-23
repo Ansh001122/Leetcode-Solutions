@@ -2,8 +2,6 @@ class Solution {
     public List<Integer> majorityElement(int[] nums) {
         Integer cand1 = null, cand2 = null;
         int count1 = 0, count2 = 0;
-
-        // Step 1: Find potential majority candidates
         for (int num : nums) {
             if (cand1 != null && num == cand1) {
                 count1++;
@@ -20,8 +18,6 @@ class Solution {
                 count2--;
             }
         }
-
-        // Step 2: Verify the actual frequencies of the candidates
         count1 = 0;
         count2 = 0;
         for (int num : nums) {
@@ -31,7 +27,6 @@ class Solution {
                 count2++;
             }
         }
-
         List<Integer> result = new ArrayList<>();
         int threshold = nums.length / 3;
         
@@ -41,7 +36,6 @@ class Solution {
         if (cand2 != null && count2 > threshold && !cand2.equals(cand1)) {
             result.add(cand2);
         }
-
         return result;
     }
 }
