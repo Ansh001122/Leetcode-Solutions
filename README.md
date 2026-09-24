@@ -40,6 +40,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0042-trapping-rain-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -111,6 +112,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | ------- |
 | [0015-3sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0016-3sum-closest) |
+| [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
@@ -145,6 +147,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0115-distinct-subsequences](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0242-valid-anagram) |
@@ -169,6 +172,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | ------- |
 | [0001-two-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
