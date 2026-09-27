@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
     public String reverseParentheses(String s) {
         Deque<Integer> stack = new ArrayDeque<>();
         StringBuilder sb = new StringBuilder();
@@ -28,5 +28,27 @@ class Solution {
             left++;
             right--;
         }
+    }
+}*/
+
+
+class Solution {
+    public String reverseParentheses(String s) {
+        Deque<StringBuilder> stack = new ArrayDeque<>();
+        StringBuilder curr = new StringBuilder();
+        for (char ch : s.toCharArray()) {
+            if (ch == '(') {
+                stack.push(curr);
+                curr = new StringBuilder();
+            } else if (ch == ')') {
+                curr.reverse();
+                StringBuilder temp = stack.pop();
+                temp.append(curr);
+                curr = temp;
+            } else {
+                curr.append(ch);
+            }
+        }
+        return curr.toString();
     }
 }
