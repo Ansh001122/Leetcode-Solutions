@@ -146,6 +146,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1890-the-latest-login-in-2020](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1890-the-latest-login-in-2020) |
 | [1934-confirmation-rate](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1934-confirmation-rate) |
 | [1965-employees-with-missing-information](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1965-employees-with-missing-information) |
+| [1978-employees-whose-manager-left-the-company](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1978-employees-whose-manager-left-the-company) |
 ## String
 |  |
 | ------- |
