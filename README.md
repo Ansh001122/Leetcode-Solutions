@@ -151,6 +151,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
@@ -381,6 +382,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0316-remove-duplicate-letters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0316-remove-duplicate-letters) |
@@ -501,6 +503,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Bracket Sequences
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
