@@ -101,6 +101,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0316-remove-duplicate-letters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0316-remove-duplicate-letters) |
+| [0678-valid-parenthesis-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1927-sum-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1927-sum-game) |
@@ -164,6 +165,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0392-is-subsequence](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0678-valid-parenthesis-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -290,6 +292,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0213-house-robber-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0213-house-robber-ii) |
 | [0392-is-subsequence](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0392-is-subsequence) |
 | [0486-predict-the-winner](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0486-predict-the-winner) |
+| [0678-valid-parenthesis-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0877-stone-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
@@ -390,6 +393,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0042-trapping-rain-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0316-remove-duplicate-letters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0496-next-greater-element-i) |
+| [0678-valid-parenthesis-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -509,6 +513,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0020-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 <!---LeetCode Topics End-->
