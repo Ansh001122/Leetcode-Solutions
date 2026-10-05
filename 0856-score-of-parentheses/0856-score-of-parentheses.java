@@ -1,16 +1,17 @@
 class Solution {
     public int scoreOfParentheses(String s) {
-        Deque<Integer> stack = new ArrayDeque<>();
-        int currentScore = 0;
-
-        for (char c : s.toCharArray()) {
-            if (c == '(') {
-                stack.push(currentScore);
-                currentScore = 0; 
+       Deque<Integer> st = new ArrayDeque<>();
+        int score = 0;
+        
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (ch == '(') {
+                st.push(score);
+                score = 0;
             } else {
-                currentScore = stack.pop() + Math.max(2 * currentScore, 1);
+                score = st.pop() + Math.max(2 * score, 1);
             }
         }
-        return currentScore;
+        return score;
     }
 }
