@@ -65,8 +65,7 @@
 
 class Solution {
     int l, m, n;
-    private static final int[][] DIRECTIONS = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-
+    private static final int[][] ways = {{0,1}, {0,-1}, {1,0}, {-1,0}};
     public boolean find(char[][] board, int i, int j, String word, int idx) {
         if (idx == l) {
             return true;
@@ -76,7 +75,7 @@ class Solution {
         }
         char temp = board[i][j];
         board[i][j] = '$';
-        for (int[] dir : DIRECTIONS) {
+        for (int[] dir : ways) {
             int i_ = i + dir[0]; // rows
             int j_ = j + dir[1]; // columns
 
