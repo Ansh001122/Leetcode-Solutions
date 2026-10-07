@@ -44,6 +44,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0056-merge-intervals) |
+| [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -158,6 +159,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0022-generate-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0242-valid-anagram) |
@@ -381,6 +383,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0048-rotate-image) |
+| [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 | [1260-shift-2d-grid](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1260-shift-2d-grid) |
 ## Simulation
 |  |
@@ -446,6 +449,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
@@ -467,6 +471,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 ## Linked List
 |  |
 | ------- |
