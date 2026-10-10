@@ -37,6 +37,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0011-container-with-most-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0016-3sum-closest) |
+| [0036-valid-sudoku](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0045-jump-game-ii) |
@@ -193,6 +194,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0001-two-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0202-happy-number) |
@@ -383,6 +385,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 | [1260-shift-2d-grid](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1260-shift-2d-grid) |
