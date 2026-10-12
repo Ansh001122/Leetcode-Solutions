@@ -9,12 +9,12 @@ class Solution {
         PriorityQueue<Integer> heap = new PriorityQueue<>();
 
         for(int num : nums){
-            heap.offer(num);
+            heap.offer(num); //add numbers to min-heap
 
             if(heap.size() > k){
-                heap.poll();
+                heap.poll(); //remove number from queue after exceding the size of min heap in comparison to k
             }
         }
-        return heap.peek();
+        return heap.peek();//now just return the top element
     }
 }
