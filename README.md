@@ -72,6 +72,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0904-fruit-into-baskets](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
+| [1207-unique-number-of-occurrences](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1207-unique-number-of-occurrences) |
 | [1260-shift-2d-grid](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
@@ -220,6 +221,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0496-next-greater-element-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [0904-fruit-into-baskets](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0904-fruit-into-baskets) |
+| [1207-unique-number-of-occurrences](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1207-unique-number-of-occurrences) |
 | [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
