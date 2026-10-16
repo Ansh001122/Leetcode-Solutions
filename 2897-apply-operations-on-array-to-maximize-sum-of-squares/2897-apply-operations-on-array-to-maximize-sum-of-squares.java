@@ -1,27 +1,27 @@
 class Solution {
     public int maxSum(List<Integer> nums, int k) {
-        final int MOD = 1_000_000_007;
-        int[] bitCount = new int[31]; 
+        long MOD = 1_000_000_007L;
+        int[] bitCount = new int[32]; 
         
         for (int num : nums) {
-            for (int i = 0; i < 31; i++) {
+            for (int i = 0; i < 32; i++) {
                 if ((num & (1 << i)) != 0) {
                     bitCount[i]++;
                 }
             }
         }
-        long totalSumOfSquares = 0;
+        long ans = 0;
     
         for (int step = 0; step < k; step++) {
-            long currentNum = 0;
+            long num = 0;
             for (int i = 0; i < 31; i++) {
                 if (bitCount[i] > 0) {
-                    currentNum |= (1L << i);
+                    num |= (1L << i);
                     bitCount[i]--;
                 }
             }
-            totalSumOfSquares = (totalSumOfSquares + (currentNum * currentNum) % MOD) % MOD;
+            ans = (ans + num*num) % MOD;
         }
-        return (int) totalSumOfSquares;
+        return (int) ans;
     }
 }
