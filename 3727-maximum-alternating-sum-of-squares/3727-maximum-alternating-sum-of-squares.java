@@ -8,15 +8,14 @@ class Solution {
         }
         Arrays.sort(squares);
         
-        long totalScore = 0;
-        int negativeCount = n / 2;
-        
-        for (int i = 0; i < negativeCount; i++) {
-            totalScore -= squares[i];
+        long Score = 0;
+
+        for (int i = 0; i < n/2; i++) {
+            Score -= squares[i];
         }
-        for (int i = negativeCount; i < n; i++) {
-            totalScore += squares[i];
+        for (int i = n/2; i < n; i++) {
+            Score += squares[i];
         }
-        return totalScore;
+        return Score;
     }
 }
