@@ -10,51 +10,41 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) {
+       if (head == null || head.next == null) {
             return true;
         }
 
-        // Step 1: Find the middle using slow and fast pointers
-        ListNode slow = head;
-        ListNode fast = head;
+        ListNode slow = head, fast = head, prev, temp;
+        
+        // 1. Find the middle
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
-
-        // Step 2: Reverse the second half of the list
-        ListNode secondHalfHead = reverseList(slow);
         
-        // Step 3: Compare the first half and the reversed second half
-        ListNode p1 = head;
-        ListNode p2 = secondHalfHead;
-        boolean isPalin = true;
+        // 2. Reverse the second half
+        prev = slow;
+        slow = slow.next;
+        prev.next = null;
         
-        while (p2 != null) {
-            if (p1.val != p2.val) {
-                isPalin = false;
-                break;
+        while (slow != null) {
+            temp = slow.next;
+            slow.next = prev;
+            prev = slow;
+            slow = temp;
+        }
+        
+        // 3. Compare safely
+        fast = head;
+        slow = prev;
+        while (fast != null && slow != null) {
+            if (fast.val != slow.val) {
+                return false;
             }
-            p1 = p1.next;
-            p2 = p2.next;
+            fast = fast.next;
+            slow = slow.next;
         }
-
-        // Optional: Restore the list structure (re-reverse the second half back)
-        reverseList(secondHalfHead);
-
-        return isPalin;
-    }
-
-    // Helper method to reverse a linked list
-    private ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        ListNode curr = head;
-        while (curr != null) {
-            ListNode nextTemp = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = nextTemp;
-        }
-        return prev;
+        
+        return true;
     }
 }
