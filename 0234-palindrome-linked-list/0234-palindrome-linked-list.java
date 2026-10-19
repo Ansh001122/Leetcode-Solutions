@@ -13,16 +13,13 @@ class Solution {
        if (head == null || head.next == null) {
             return true;
         }
-
         ListNode slow = head, fast = head, prev, temp;
         
-        // 1. Find the middle
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
         
-        // 2. Reverse the second half
         prev = slow;
         slow = slow.next;
         prev.next = null;
@@ -34,7 +31,6 @@ class Solution {
             slow = temp;
         }
         
-        // 3. Compare safely
         fast = head;
         slow = prev;
         while (fast != null && slow != null) {
@@ -44,7 +40,6 @@ class Solution {
             fast = fast.next;
             slow = slow.next;
         }
-        
         return true;
     }
 }
