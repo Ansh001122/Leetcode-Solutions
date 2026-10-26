@@ -95,6 +95,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
@@ -401,6 +402,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Graph Theory
 |  |
 | ------- |
@@ -428,6 +430,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0048-rotate-image](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 | [1260-shift-2d-grid](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1260-shift-2d-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Simulation
 |  |
 | ------- |
@@ -499,10 +502,12 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0079-word-search](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0079-word-search) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3310-remove-methods-from-project) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [3310-remove-methods-from-project](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3310-remove-methods-from-project) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Nim Game
 |  |
 | ------- |
