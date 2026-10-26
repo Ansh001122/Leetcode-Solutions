@@ -200,6 +200,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1927-sum-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1927-sum-game) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2409-count-days-spent-together](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2409-count-days-spent-together) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -287,6 +288,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1872-stone-game-viii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2029-stone-game-ix) |
+| [2409-count-days-spent-together](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2409-count-days-spent-together) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3524-find-x-value-of-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3524-find-x-value-of-array-i) |
