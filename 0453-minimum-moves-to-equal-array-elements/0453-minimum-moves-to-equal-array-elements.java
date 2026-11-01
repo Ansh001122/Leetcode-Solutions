@@ -8,7 +8,6 @@ class Solution {
         for (int num : nums) {
             moves += num - min;
         }
-
         return moves;
     }
 }
