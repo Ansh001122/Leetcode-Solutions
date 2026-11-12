@@ -1,6 +1,6 @@
 class Solution {
     public long minimumCost(int cost1, int cost2, int costBoth, int need1, int need2) {
-        if(cost1 + cost2 <= costBoth){
+        if(cost1 + cost2 <= costBoth){ //((long) cost1 + cost2 <= costBoth)we can use this for in case of overflow..
             return (long)need1*cost1 + (long)need2*cost2;
         }
         int both = Math.min(need1 , need2);
