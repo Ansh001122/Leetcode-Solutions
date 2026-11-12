@@ -10,10 +10,8 @@ class Solution {
         need2 -= both;
         if(need1 > 0){
             total += (long)need1* Math.min(cost1, costBoth);
-
         }else if(need2 > 0){
             total += (long)need2* Math.min(cost2, costBoth);
-
         }
         return total;
     }
