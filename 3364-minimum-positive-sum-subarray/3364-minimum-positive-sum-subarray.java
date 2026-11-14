@@ -16,7 +16,7 @@ class Solution {
             }
         }
         // Return -1 if no valid subarray was found, otherwise return the minimum sum
-        return minSum == Integer.MAX_VALUE ? -1 : minSum;*/
+        return minSum == Integer.MAX_VALUE ? -1 : minSum;
 
         int n = nums.size();
         int minSum = Integer.MAX_VALUE;
@@ -35,6 +35,28 @@ class Solution {
             }
         }
         // Return -1 if no valid subarray exists
-        return minSum == Integer.MAX_VALUE ? -1 : minSum;
+        return minSum == Integer.MAX_VALUE ? -1 : minSum;*/
+
+        int result = Integer.MAX_VALUE;
+        int n = nums.size();
+        // Try every possible window size k from l to r
+        for (int k = l; k <= r; k++) {
+            int sum = 0;
+            // Calculate the first window of size k
+            for (int i = 0; i < k; i++) {
+                sum += nums.get(i);
+            }
+            if (sum > 0) {
+                result = Math.min(result, sum);
+            }
+            // Slide the window across the rest of the array in O(1) per step
+            for (int high = k; high < n; high++) {
+                sum = sum - nums.get(high - k) + nums.get(high);
+                if (sum > 0) {
+                    result = Math.min(result, sum);
+                }
+            }
+        }
+        return result == Integer.MAX_VALUE ? -1 : result;
     }
 }
