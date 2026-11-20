@@ -99,6 +99,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3364-minimum-positive-sum-subarray) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
@@ -168,6 +169,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2567-minimum-score-by-changing-two-elements](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2747-count-zero-request-servers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2747-count-zero-request-servers) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3731-find-missing-elements) |
@@ -374,6 +376,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1510-stone-game-iv](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1510-stone-game-iv) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1872-stone-game-viii) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3524-find-x-value-of-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3524-find-x-value-of-array-i) |
 | [3693-climbing-stairs-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3693-climbing-stairs-ii) |
