@@ -22,13 +22,12 @@ class Solution {
         if (n <= 3) {
             return 0;
         }
-
         Arrays.sort(nums);
 
         int option1 = nums[n - 3] - nums[0]; // drop two largest
         int option2 = nums[n - 1] - nums[2]; // drop two smallest
         int option3 = nums[n - 2] - nums[1]; // drop one smallest, one largest
 
-        return Math.min(option1, Math.min(option2, option3));
+        return Math.min(option1,Math.min(option2,option3));
     }
 }
