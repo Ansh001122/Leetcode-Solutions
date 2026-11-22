@@ -6,7 +6,7 @@ class Solution {
         }
         long ans = 0;
         for (int num : nums) {
-            ans += (long) max - num;
+            ans += max - num;
         }
         return (int)ans;
     }
