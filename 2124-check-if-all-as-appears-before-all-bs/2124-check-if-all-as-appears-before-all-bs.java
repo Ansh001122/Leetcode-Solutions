@@ -6,8 +6,8 @@ class Solution {
                 return false;
             }
         }
-        return true;
+        return true;  //first approach just checking wether a is present after b in previous
 
-        /*return !s.contains("ba");*/
+        /*return !s.contains("ba");*/ // second one using not contains "ba" 
     }
 }
