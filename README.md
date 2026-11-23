@@ -81,6 +81,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1260-shift-2d-grid](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1260-shift-2d-grid) |
 | [1267-count-servers-that-communicate](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1267-count-servers-that-communicate) |
 | [1331-rank-transform-of-an-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1331-rank-transform-of-an-array) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1352-product-of-the-last-k-numbers) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -316,6 +317,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0836-rectangle-overlap](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1352-product-of-the-last-k-numbers) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1510-stone-game-iv) |
@@ -398,6 +400,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1352-product-of-the-last-k-numbers) |
 ## Randomized
 |  |
 | ------- |
@@ -410,6 +413,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [0525-contiguous-array](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1140-stone-game-ii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1140-stone-game-ii) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1352-product-of-the-last-k-numbers) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1872-stone-game-viii](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1872-stone-game-viii) |
@@ -665,4 +669,8 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 |  |
 | ------- |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Data Stream
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1352-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
