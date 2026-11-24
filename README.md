@@ -106,6 +106,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3364-minimum-positive-sum-subarray) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3524-find-x-value-of-array-i) |
@@ -328,6 +329,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2409-count-days-spent-together](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2409-count-days-spent-together) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3524-find-x-value-of-array-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3524-find-x-value-of-array-i) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -435,6 +437,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3364-minimum-positive-sum-subarray) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Binary Search
 |  |
@@ -470,6 +473,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 | [1291-sequential-digits](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/1291-sequential-digits) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
@@ -477,6 +481,7 @@ Because I solve problems across different categories dynamically, LeetHub V2 org
 ## Number Theory
 |  |
 | ------- |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Ansh001122/Leetcode-Solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Matrix
