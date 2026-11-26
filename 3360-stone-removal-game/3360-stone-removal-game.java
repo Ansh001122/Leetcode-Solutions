@@ -15,7 +15,7 @@ class Solution {
         }
     }*/
 
-        int k = (int) ((21.0 - Math.sqrt(441.0 - 8L * n)) / 2.0);
+        int k = (int) ((21.0 - Math.sqrt(441.0 - 8L * n)) / 2.0); // using the quadratic formula 
 
         return k % 2 == 1;
     }    
