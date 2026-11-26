@@ -1,6 +1,6 @@
 class Solution {
     public boolean canAliceWin(int n) {
-        int take = 10;
+      /*  int take = 10;
         int steps = 0;
         while(n >= take){
             n -= take;
@@ -13,5 +13,10 @@ class Solution {
         else{
             return false;
         }
-    }
+    }*/
+
+        int k = (int) ((21.0 - Math.sqrt(441.0 - 8L * n)) / 2.0);
+
+        return k % 2 == 1;
+    }    
 }
